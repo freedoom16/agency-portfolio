@@ -1,4 +1,8 @@
-<div
+import React from 'react'
+
+export default function carousal() {
+  return (
+    <div
   id="carouselDarkVariant"
   class="carousel slide carousel-fade carousel-dark relative"
   data-bs-ride="carousel"
@@ -83,3 +87,5 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+  )
+}

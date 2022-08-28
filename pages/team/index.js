@@ -11,7 +11,7 @@ export default function index() {
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 lg:gap-xl-12">
       <div class="mb-12 lg:mb-0">
         <img class="rounded-lg shadow-lg mb-6 mx-auto" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
-          alt="avatar" style="width: 150px" />
+          alt="avatar" style={{width: '150px'}} />
         <h5 class="text-lg font-bold mb-4">Alan Turing</h5>
         <p class="mb-6">Frontend Developer</p>
         <ul class="list-inside flex mx-auto justify-center">
@@ -37,7 +37,7 @@ export default function index() {
       </div>
       <div class="mb-12 lg:mb-0">
         <img class="rounded-lg shadow-lg mb-6 mx-auto" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
-          alt="avatar" style="width: 150px" />
+          alt="avatar" style={{width: '150px'}} />
         <h5 class="text-lg font-bold mb-4">Veronica Smith</h5>
         <p class="mb-6">Backend Developer</p>
         <ul class="list-inside flex mx-auto justify-center">
@@ -63,7 +63,7 @@ export default function index() {
       </div>
       <div class="mb-12 md:mb-0">
         <img class="rounded-lg shadow-lg mb-6 mx-auto" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg"
-          alt="avatar" style="width: 150px" />
+          alt="avatar" style={{width: '150px'}} />
         <h5 class="text-lg font-bold mb-4">Tom Johnson</h5>
         <p class="mb-6">Digital Marketing Analyst</p>
         <ul class="list-inside flex mx-auto justify-center">
@@ -89,7 +89,7 @@ export default function index() {
       </div>
       <div class="mb-12 md:mb-0">
         <img class="rounded-lg shadow-lg mb-6 mx-auto" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
-          alt="avatar" style="width: 150px" />
+          alt="avatar" style={{width: '150px'}} />
         <h5 class="text-lg font-bold mb-4">Emma Lovelace</h5>
         <p class="mb-6">Web Designer</p>
         <ul class="list-inside flex mx-auto justify-center">
